@@ -6,8 +6,7 @@ import org.elasticsearch.action.get.GetResponse
 
 @Transactional
 class AccountsService {
-//    def elasticsearchConfigManager= Holders.getGrailsApplication().getMainContext().getBean("elasticsearchConfigManager")
-    def elasticsearchConfigManager
+    def elasticsearchConfigManager= Holders.getGrailsApplication().getMainContext().getBean("elasticsearchConfigManager")
 
     def index(params){
         def action=params.get("task")
