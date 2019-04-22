@@ -1,6 +1,12 @@
 # Elasticsearch-with-Grails
 
 A demo project in order to impart knowledge to the students on how to use Java API for Elasticsearch in grails project.
+The project is basically an API that can respond to JSON requests and return JSON response.
+
+For demonstration: Example request=>
+
+POST Request URI: http://localhost:8080/request
+Request Body: {"service":"accounts","task":"getAccountSummary"}
 
 # Prerequisites
 1. JDK (at least JDK 8)
