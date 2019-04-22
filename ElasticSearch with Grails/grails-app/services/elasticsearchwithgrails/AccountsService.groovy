@@ -31,7 +31,8 @@ class AccountsService {
         }
     }
 
+    //TODO
     def getAccountSummary(params) {
-        return "Account Summary Returned!"
+        return ["message":"Account Summary Returned!"]
     }
 }

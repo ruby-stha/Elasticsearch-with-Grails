@@ -3,7 +3,7 @@ package elasticsearchwithgrails
 import grails.converters.JSON
 import grails.util.Holders
 
-class InfoController {
+class RequestController {
     def appContext=Holders.getGrailsApplication().getMainContext()
 
     def index() {
