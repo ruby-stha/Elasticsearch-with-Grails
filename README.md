@@ -5,7 +5,7 @@ The project is basically an API that can respond to JSON requests and return JSO
 
 For demonstration: Example request=>
 
-POST Request URI: http://localhost:8080/request
+POST Request URI: http://localhost:8080/request, where request is the name of our controller and 8080 is the port in which our project is running.
 Request Body: {"service":"accounts","task":"getAccountSummary"}
 
 # Prerequisites
