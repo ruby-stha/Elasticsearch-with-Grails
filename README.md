@@ -9,11 +9,13 @@ POST Request URI: http://localhost:8080/request, where request is the name of ou
 
 Request Body:
 
+```json
 {
   "service": "accounts",
   "task": "getAccountById",
   "accountId": "25"
 }
+```
 
 Sample Output
 
