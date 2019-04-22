@@ -7,7 +7,7 @@ For demonstration: Example request=>
 
 POST Request URI: http://localhost:8080/request, where request is the name of our controller and 8080 is the port in which our project is running.
 
-Request Body:
+Sample Request Body:
 
 ```json
 {
@@ -17,7 +17,7 @@ Request Body:
 }
 ```
 
-Sample Output
+Sample JSON Response for the Request Above
 
 ```json
 {
