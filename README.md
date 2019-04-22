@@ -19,6 +19,7 @@ Request Body:
 
 Sample Output
 
+```json
 {
     "accountInfo": {
         "account_number": 25,
@@ -34,6 +35,7 @@ Sample Output
         "lastname": "Ayala"
     }
 }
+```
 
 # Prerequisites
 1. JDK (at least JDK 8)
